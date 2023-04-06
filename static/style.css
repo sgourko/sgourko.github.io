@@ -50,7 +50,7 @@ div.page {
 	padding-top: 5px;
 }
 .image {
-	width: 320px;
+	width: 640px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 15px;
@@ -59,4 +59,6 @@ div.page {
 /*	border: 1px solid  #e6e6e6;
 */
 	overflow: hidden;
+}
+.llist {
 }
