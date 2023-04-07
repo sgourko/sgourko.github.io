@@ -1,0 +1,13 @@
+.wrapper{margin:1em auto;max-width:1400px}
+.ta-center{text-align:center}
+img{vertical-align:middle;max-width:100%}
+.masonry{display:flex;flex-flow:column wrap;margin-left:-15px;counter-reset:brick;width:100%}
+.masonry-brick{overflow:hidden;border-radius:5px;margin:0 0 15px 15px;background-color:#eee;position:relative}
+@media only screen and (min-width:1008px){.masonry-brick{width:33.33333%}}
+@media only screen and (min-width:769px) and (max-width:1007px){.masonry-brick{width:50%}}
+@media only screen and (max-width:768px){.masonry-brick{width:100%}}
+.masonry-img{object-fit:cover;width:100%;height:100%}
+.top-left{position:absolute;top:16px;left:16px;z-index:5000;color:#fff;text-shadow:2px 2px 5px #000}
+.jurgen-preloader{margin:0 auto;z-index:5;border:11px solid #fff;border-top:11px solid #3498db;border-radius:50%;width:80px;height:80px;animation:spin 2s linear infinite;-webkit-animation:spin 2s linear infinite}
+@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}
