@@ -60,5 +60,10 @@ div.page {
 */
 	overflow: hidden;
 }
+.foot {
+	color: #169bbd;
+    margin: 0;
+    font-weight: normal;
+}
 .llist {
 }
