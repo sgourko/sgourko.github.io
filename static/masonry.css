@@ -2,6 +2,7 @@
  margin:1em auto;
  max-width:1400px;
 # padding-top: 110px;
+padding: 10px 20px;
 }
 .ta-center {
  text-align:center
@@ -48,7 +49,7 @@ img {
  position:absolute;
  top:16px;
  left:16px;
- z-index:5000;
+ z-index:5;
  color:#fff;
  text-shadow:2px 2px 5px #000
 }
