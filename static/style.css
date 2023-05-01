@@ -34,11 +34,11 @@ header {
 
     position: fixed;
   top: 0;
-  width: 97%;
+  width: 100%;
   z-index:100;
 }
 .content {
-	padding: 100px 15px;
+	padding: 100px 15px 25px 15px;
 }
 footer, div.page {
 	width: auto;
@@ -90,4 +90,7 @@ div.page {
 	color: #169bbd;
     margin: 0;
     font-weight: normal;
+}
+.card {
+  padding: 60px 20px 60px 20px;
 }
