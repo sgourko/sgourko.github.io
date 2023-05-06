@@ -4,13 +4,14 @@
 }
 body {
     font-family: 'Verdana', sans-serif;
-#    margin: 50px 25px;
+#    margin: 10px 5px;
 }
 a {
-    color: #2a99b6;
+    color: #999;
+    text-decoration: none;
 }
 a:hover {
-    color: #33bbdf;
+    color: #111;
 }
 /*
 header {
@@ -31,11 +32,12 @@ header {
 #	border: 1px solid black;
 #    width: 760px;
     margin: 10 auto;
-    background: #daeef3;
-    padding: 10px 10px 10px 20px;
-    color: #169bbd;
+    background: white;
+    padding: 25px 0px 25px 70px;
+#    color: #169bbd;
+	color: #111;
 #    margin: 0;
-    font-weight: normal;
+    font-weight: 300;
 
     position: fixed;
   top: 0;
@@ -43,33 +45,47 @@ header {
   z-index:100;
 }
 .content {
-	padding: 100px 15px 25px 15px;
+	padding: 80px 60px 0px 21px;
+}
+.description{
+	padding: 0px 60px 0px 21px;
 }
 footer, div.page {
 	width: auto;
 #	border: 1px solid black;
 #    width: 760px;
     margin: 10 auto;
-    background: #daeef3;
+    background: white;
     padding: 10px 20px;
+    color: #999;
 }
 header h1 {
-    color: #169bbd;
+#    color: #169bbd;
+    color: #111;
     margin: 0;
-    font-weight: normal;
-    font-size: 42px;
+    font-weight: 300;
+    font-size: 2.4em;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.003em;
 }
 header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-weight: 300;
+    color: #999;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
 }
 header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
-    padding: 0;
-    font-weight: normal;
+#    padding: 0;
+    font-weight: 300;
+    color: #999;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 10px;
 }
 div.page {
     background: #f1fbfe;
@@ -94,7 +110,7 @@ div.page {
 	overflow: hidden;
 }
 .foot {
-	color: #169bbd;
+	color: #999;
     margin: 0;
     font-weight: normal;
 }
